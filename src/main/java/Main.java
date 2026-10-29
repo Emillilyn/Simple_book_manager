@@ -55,7 +55,7 @@ public class Main {
                     }
                     break;
                 case 4:
-                    int returnNumber = readNumer(sc, "Book number: ");
+                    int returnNumber = readNumber(sc, "Book number: ");
                     if (returnNumber < 1 || returnNumber > count) {
                         System.out.println("Invalid book number.");
                     } else if (books[returnNumber - 1].giveBack()) {
